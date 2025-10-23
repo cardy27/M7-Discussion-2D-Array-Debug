@@ -15,7 +15,7 @@ int main() {
 
     cout << "Enter the temperatures for each day (Morning, Afternoon, Evening):" << endl;
 
-    // ERROR 1: Missing semicolon after the for loop declaration (syntax error)
+    
     for (int i = 0; i < days)
         for (int j = 0; j < times; j++) {
             cout << "Day " << i + 1 << ", Time " << j + 1 << ": ";
@@ -24,10 +24,10 @@ int main() {
 
     cout << "\nWeekly Temperature Report:" << endl;
 
-    // ERROR 2: Using the wrong array variable name (runtime/syntax error)
+   
     for (int i = 0; i < days; i++) {
         for (int j = 0; j < times; j++) {
-            cout << temperature[i][j] << " "; // 'temperature' is not defined
+            cout << temperature[i][j] << " "; 
         }
         cout << endl;
     }
